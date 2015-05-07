@@ -22,7 +22,7 @@ TARGET_SCREEN_HEIGHT := 960
 $(call inherit-product, device/motorola/surnia/full_surnia.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/candy5/config/common_full_phone.mk)
+$(call inherit-product, vendor/omni/config/common_full_phone.mk)
 
 
 ## Device identifier. This must come after all inclusions
